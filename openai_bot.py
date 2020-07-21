@@ -5,7 +5,7 @@ class openai_bot:
 
     engine = "davinci"
     stop_sequence = "\n\n"
-    restart_sequence = "\n\nQ: "
+    restart_sequence = "\n\nQ: " #TBD
     start_sequence = "\nA: "
     temperature = 0.0
     max_tokens = 100
@@ -78,5 +78,6 @@ if __name__ == "__main__":
 
     bot = openai_bot(persona=persona)
     bot.chat()
+    
     #response = bot.ask("Where are the bananas?")
-    print(response)
+    #print(response)
