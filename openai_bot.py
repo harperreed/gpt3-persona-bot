@@ -4,12 +4,12 @@ import pathlib
 class openai_bot:
 
     engine = "davinci"
-    stop_sequence = "\n\n"
+    stop_sequence = "↵"
     restart_sequence = "↵↵Q:"
     start_sequence = "↵A:"
-    temperature = 0.7
+    temperature = 0.0
     max_tokens = 100
-    top_p = 0
+    top_p = 1
     persona_path = "./personas/"
     
     
@@ -39,8 +39,7 @@ class openai_bot:
             prompt=self.prompt,
             max_tokens=self.max_tokens,
             temperature=self.temperature,
-            start="harper",
-            restart="sad"
+            stop=self.stop_sequence
             )
         print(completion_result['choices'])
 
@@ -52,9 +51,8 @@ class openai_bot:
         return "answer"
 
 if __name__ == "__main__":
-    key = "sk-c5PHJtzP1kOA6QBBg076iGgClqOrGysAG09rZwpd"
     persona = "guru"
     bot = openai_bot(key, persona)
     
-    response = bot.ask("Who are you?")
+    response = bot.ask("Why are we here?")
     print(response)
