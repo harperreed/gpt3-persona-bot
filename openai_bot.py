@@ -58,8 +58,11 @@ class openai_bot:
     def chat(self):
         # Largely from: https://github.com/jezhiggins/eliza.py
         print("You are speaking to the persona named:", self.persona )
+        print()
+        print("type `quit` to quit")
         print('='*72)
         print('Please ask me a question')
+        print()
 
         s = ''
         while s != 'quit':
@@ -68,8 +71,11 @@ class openai_bot:
             except EOFError:
                 s = 'quit'
                 print(s)
+            if (s=='quit' or s==''):
+                break
             response = self.ask(s)
             print("A:", response)
+            print()
 
 
 
