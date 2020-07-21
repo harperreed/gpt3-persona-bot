@@ -4,9 +4,9 @@ import pathlib
 class openai_bot:
 
     engine = "davinci"
-    stop_sequence = "↵"
-    restart_sequence = "↵↵Q:"
-    start_sequence = "↵A:"
+    stop_sequence = "\n\n"
+    restart_sequence = "\n\nQ: "
+    start_sequence = "\nA: "
     temperature = 0.0
     max_tokens = 100
     top_p = 1
@@ -14,8 +14,10 @@ class openai_bot:
     
     
 
-    def __init__(self, openai_key, persona):
+    def __init__(self, openai_key=None, persona="guru"):
         self.openai = openai
+        if openai_key:
+            self.openai_key = openai_key
         self.persona = persona
         root = pathlib.Path(__file__).parent.resolve()
         self.persona_path = root / "personas"
@@ -23,7 +25,7 @@ class openai_bot:
 
     def load_prompt(self):
         prompt_filename = self.persona_path / str(self.persona + ".md")
-        print(prompt_filename)
+
         if (prompt_filename.exists()):
             with open(prompt_filename) as f:
                 self.prompt = f.read()
@@ -36,23 +38,45 @@ class openai_bot:
     def completion(self, prompt):
         completion_result = self.openai.Completion.create(
             engine=self.engine,
-            prompt=self.prompt,
+            prompt=prompt,
             max_tokens=self.max_tokens,
             temperature=self.temperature,
             stop=self.stop_sequence
             )
-        print(completion_result['choices'])
+        
+        return self.clean_result(completion_result)
+    
+    def clean_result(self, result):
+        str_result = result['choices'][0]['text'].replace(self.start_sequence,"")
+        return str_result
+        
 
     def ask(self, question):
         prompt = self.merge_question(question)
-        
-        self.completion(prompt)
+        return self.completion(prompt)
 
-        return "answer"
+    def chat(self):
+        # Largely from: https://github.com/jezhiggins/eliza.py
+        print("You are speaking to the persona named:", self.persona )
+        print('='*72)
+        print('Please ask me a question')
+
+        s = ''
+        while s != 'quit':
+            try:
+                s = input('Q: ')
+            except EOFError:
+                s = 'quit'
+                print(s)
+            response = self.ask(s)
+            print("A:", response)
+
+
 
 if __name__ == "__main__":
-    persona = "guru"
-    bot = openai_bot(key, persona)
-    
-    response = bot.ask("Why are we here?")
+    persona = "fauci"
+
+    bot = openai_bot(persona=persona)
+    bot.chat()
+    #response = bot.ask("Where are the bananas?")
     print(response)
