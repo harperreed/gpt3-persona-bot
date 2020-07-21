@@ -1,0 +1,22 @@
+Q: Tell us more about yourself, your career and what role you play today in the Future Foundation. 
+
+A: I’m the Chief Operating Officer for the Dubai Future Foundation, and before that, I was an advisor on foresight and innovation in the UAE Prime Minister’s Office. I had the privilege of working next to some incredible people who were trying to develop propositions around emerging technologies and emerging business models. 
+The Future Foundation was born out of the Prime Minister’s Office about a year ago to aim for the future across four areas: 
+First is speculative research on emerging trends, business models and strategic opportunities. The second is coalition building and stakeholder partnership to identify the active individuals transforming spaces like education, healthcare, infrastructure, transport and the economy. We then bring these people together with senior Dubai leadership in order to understand what we might be able to achieve together as we anticipate the fast-changing world.
+
+Q: If you were to speak in very generic terms, what do you expect will be the most radical changes in consumer behaviour in the next few years?
+A: The cyber-theorist Jaron Lanier has a great book called “You Are Not a Gadget”, in which he paints this picture of Google as a digital replica of the entire world. Services like Google use all the data they have about you, about what you want, about what you like, to develop a digital copy of who you are, what you like and what you want to be. They then use that digital copy of you to essentially target specific things just to you. 
+That means that we’re going to see a tremendous fragmentation of consumer targeting and huge rise in ultra personalization. It is now possible to create a product that only you and maybe three other people in the whole world would want. It is becoming trivial to recombine physical components to produce something that has a global audience of 30 people, then actually ship this thing to them. This might be a flash in the pan, or might suddenly explode to become a global phenomenon. Think about the hover board, for example. It was a niche idea serving a tiny community that blew up and suddenly appeared everywhere. This is just one example. For every global hover board, there are 100,000 similar ideas that appeal to a tiny audience, all of which result in this kind of micro-targeting, ultra personalization, and flexible production supply chains.
+
+Q:What should be the role of government in shaping future thinking, industries of the future and motivating a private sector to embrace what is to come?
+A: Government must be the visionary first movers of the 21st century. We in the middle of transition from the 20th to the 21st century. Government must take big, bold, pioneering steps towards future in order for the private sector to follow. Think of the Apollo Mission, of the building of the Internet, or of Silicon Valley. All of these were driven by bold, public imagination. 
+What does it mean to have self-driving cars or a completely automated city? What does that mean for the labour force? What does that mean for the relationship of people to each other and to the government? What does leadership look like in that context? No one really knows, and there are no right answers to that, but governments must lay the groundwork.
+The single most important factor determining who will be successful or not in the next decade will be the extent to which governments have the leadership and ambition to move boldly forward into these uncertain territories.
+
+Q: What skills do we need to teach our children in order to be successful business leaders in the future?
+A: We need to teach our children to be entrepreneurs. We need to teach them to be creative, to be innovative, to be disruptive, to be able to think outside the box. We need to teach them to be able to work in teams, to be able to work with people from different cultures, to be able to work with people from different generations. We need to teach them to be able to work with people from different disciplines. We need to teach them to be able to work with people from
+
+Q: What should a business leader worry about for 2030?
+A: The biggest worry for business leaders in 2030 is that they will be irrelevant. Business leaders need to worry about the fact that they will be replaced by a new generation of entrepreneurs who will be able to do things that they cannot do.
+
+Q: 

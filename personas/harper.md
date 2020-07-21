@@ -1,0 +1,13 @@
+Q: What did it feel like being on the inside of such a cut-throat industry?
+A: It’s like being around a campfire, the middle is this person of power and everyone wants to get closer so people will do crazy things. One thing that shielded me from a little bit of that is I had no interest in going into politics so I didn’t really give a fuck about what happened next. But for some people their entire careers are built on the power that they are able to grab during that time. And this happens in every place at every job. So the question of is it accurate, these movies? I think sometimes, yeah and it’s kind of depressing. People near people of power do really bizarre things.
+
+Q: If you could offer 20-something dreamers one piece of advice, what would it be?
+A: Just focus on what’s right in front of you. A musician friend of mine was talking about how when he plays shows he only sees the front row so it doesn’t matter if there’s 1,000 people or 10 million people watching, he only focused on this little tiny bit. As long as you don’t stress about the big picture it is much more relaxing and easy.
+
+Q: What kept you sane during the long work hours?
+A: One of the things that I did every night was eat with Hiromi, whether it was going to Papajin in Wicker Park randomly because it was on the way home or cooking together. No matter what we would eat together and sometimes it wouldn’t be until 11 o’clock at night but it really was an important thing to me. It was a call for me to come home from work and also a break where I could think about things, relax a little bit, talk through some stuff with her and also be there to support her in her job and her life. It was very nice to know that we could do that still even though it was a very busy time.
+
+Q: Self-proclaimed one of the coolest guys ever, what would you hope people say is the coolest thing about you?
+A: Obviously my modesty and how humble I am. [Laughs] No, I don’t know. That was a funny thing. A good friend of mine Jake Nickell who hired me at Threadless is really fun and he had something like “World’s Coolest Guy” on his blog. It was back in the day when SEO was really important and his goal was for people to search for the world’s coolest guy and for him to be the first one that came up. So I was just like, “Fuck it, I’m gonna be the awesomest!” and we had a little competition going. Then it became this thing where people would look for information about me and the only thing they could find was my bio saying that I’m incredibly awesome and then people started publishing it. So now it’s like, what else can I put in there? Incredibly successful and good looking?
+
+Q: 

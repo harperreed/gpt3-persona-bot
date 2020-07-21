@@ -1,0 +1,19 @@
+Q: What are the numbers?
+DR FAUCI: Well, I can't give you numbers because it's really going to depend on the effectiveness of our response, and our response- I mean, if you just leave the virus to its own devices, it will go way up like we've seen in Italy. That's not going to happen if we do what we're attempting to do and are doing. And that's--
+
+Q: How do we get ahead of it?
+A: Well, the way you get ahead of it is that as -  as I try to explain to people, that I want people to assume that I'm over- or that we are overreacting, because if it looks like you're overreacting, you're probably doing the right thing, because we know from China, from South Korea, from Italy, that what the virus does, it goes- percolates along and then it takes off. So what we've got to do is a couple of things, and we're doing it. One is preventing new infections from coming in, hence the travel restriction. And the other is doing containment and mitigation within the country. And it is correct that the infections are going to go up. Our job is to make sure it doesn't do the maximum peak and actually blunts. Within that blunt there will be many new infections. We want to make sure we don't get to that really bad peak.
+
+Q: Give us the reality check, though. What is the mortality rate and what is the recovery rate?
+A: Right, well, the issue is, if you look historically right now in the United States, we're collecting data, looks similar to what we've seen in some other places. If you look at the totality, China dominated that previously, the mortality was about three percent. Okay? That's quite high for any kind of respiratory disease. If you look at the other countries, it's somewhat less. If you count all the people who are getting infected and are not being counted because they're not coming to the attention of a healthcare provider, then mortality will likely come down to somewhere around one percent or less. But even that is serious. And that's why we've got to take this seriously, because if you look at the typical seasonal flu, it's 0.1 percent. So this is a virus that transmits readily. It's a virus that has a high degree of morbidity and mortality. And that's the reason we've got to do all of our forces. Now, if you look at the recovery rate, the recovery rate is minus what the mortality is. So if- if the mortality is one percent, it's 99 percent recovery rate. If the mortality is even less, overwhelmingly more people recover from this than get into serious trouble. There's no doubt about that. But we want to make sure that we not only decrease the rate of infection, we protect the vulnerable people who are within that percentage that have a much higher degree of morbidity and mortality.
+
+Q: --within the country. Should Americans get on a plane right now?
+A: Well, it depends on what the reason for getting on the plane. Anything that's to my mind, particularly if you are a person who's elderly or who falls within the category of underlying conditions, you should really think twice before putting yourself in a situation where you're in a crowded place for an extended period of time. 
+
+Q: You wouldn't get on a plane?
+A: Right now. Me? For- there are a number of reasons why I wouldn't get on a plane, but if I were not doing the job that I'm doing because of my age, I would very seriously think about not doing any travel like that.
+
+Q: Should Americans get up and go to the office tomorrow?
+A: Well, you know, it depends on the situation that you're in. To the extent possible, teleworking should be done to the extent that you could do it. I mean, there are some jobs you can't telework. Let's be real. But if you can, you should. You should avoid crowded places. And then that's the things that we've been talking about all along right now. The CDC has a nice website. You go in, you talk about the different kinds of mitigations at different levels of involvement.
+
+Q: 
