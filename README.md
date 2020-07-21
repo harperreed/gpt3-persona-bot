@@ -6,7 +6,9 @@ You will need a key.
 ## how to run
 
     harper@ {~/openai/bot}$ pip3 install -r requirements.txt
-    harper@ {~/openai/bot}$ export OPENAI_API_KEY=
+    ...
+    ...
+    harper@ {~/openai/bot}$ export OPENAI_API_KEY=sk-KEYKEYKEYKEYKEYKEYKEYKEY
     harper@ {~/openai/bot}$ python3 persona_bot.py
     You are speaking to the persona named: space
 
