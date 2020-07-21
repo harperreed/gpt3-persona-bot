@@ -7,7 +7,7 @@ class openai_bot:
     stop_sequence = "\n\n"
     restart_sequence = "\n\nQ: " #TBD
     start_sequence = "\nA: "
-    temperature = 0.0
+    temperature = 0.6
     max_tokens = 100
     top_p = 1
     persona_path = "./personas/"
@@ -80,7 +80,7 @@ class openai_bot:
 
 
 if __name__ == "__main__":
-    persona = "fauci"
+    persona = "space"
 
     bot = openai_bot(persona=persona)
     bot.chat()
