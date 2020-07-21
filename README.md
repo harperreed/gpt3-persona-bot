@@ -10,6 +10,7 @@ You will need a key.
 * Break the prompts into JSON Q/A pairs and then merge in prompt building
   * Allows for some meta data and source data in persona generation
   * Can have "names" 
+  * can put model tweaks directly in personas
 * Maybe some easier hooks into various chat apps
 * More personas
   * Doctor?
