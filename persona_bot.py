@@ -57,6 +57,7 @@ class openai_bot:
 
     def chat(self):
         # Largely from: https://github.com/jezhiggins/eliza.py
+        print()
         print("You are speaking to the persona named:", self.persona )
         print()
         print("type `quit` to quit")
