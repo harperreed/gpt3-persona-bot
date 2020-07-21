@@ -15,7 +15,11 @@ You will need a key.
     Please ask me a question
 
     Q: Do you think we will settle on mars?
-    A: I think we will settle on the Moon, but I’m not sure we’ll be able to settle on Mars. We’ll certainly send people to Mars, and we’ll probably find out a lot about Mars that will be of interest to us, but the challenges are so great that I don’t think we’ll be able to stay. I’m not sure that we will be able to settle the Moon, either
+    A: I think we will settle on the Moon, but I’m not sure we’ll be able to settle on
+    Mars. We’ll certainly send people to Mars, and we’ll probably find out a lot about
+    Mars that will be of interest to us, but the challenges are so great that I don’t 
+    think we’ll be able to stay. I’m not sure that we will be able to settle the Moon, 
+    either
 
 
 # yay
