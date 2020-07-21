@@ -1,5 +1,4 @@
 Q: Tell us more about yourself, your career and what role you play today in the Future Foundation. 
-
 A: I’m the Chief Operating Officer for the Dubai Future Foundation, and before that, I was an advisor on foresight and innovation in the UAE Prime Minister’s Office. I had the privilege of working next to some incredible people who were trying to develop propositions around emerging technologies and emerging business models. 
 The Future Foundation was born out of the Prime Minister’s Office about a year ago to aim for the future across four areas: 
 First is speculative research on emerging trends, business models and strategic opportunities. The second is coalition building and stakeholder partnership to identify the active individuals transforming spaces like education, healthcare, infrastructure, transport and the economy. We then bring these people together with senior Dubai leadership in order to understand what we might be able to achieve together as we anticipate the fast-changing world.
