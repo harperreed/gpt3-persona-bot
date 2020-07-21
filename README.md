@@ -23,12 +23,14 @@ You will need a key.
     think we’ll be able to stay. I’m not sure that we will be able to settle the Moon, 
     either
 
+Ify ou want to change the persona you will have to edit `persona_bot.py`
 
 # yay
 
 ## Lot's of TODOs here. 
 
 * Better handling when there isn't a good response.
+* allow for changing personas without editing the code
 * Better handling of repeating responses
 * Break the prompts into JSON Q/A pairs and then merge in prompt building
   * Allows for some meta data and source data in persona generation
