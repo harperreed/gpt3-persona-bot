@@ -20,15 +20,14 @@ class persona_bot:
         self.logger = logging.getLogger(__name__)
         if openai_key:
             self.openai_key = openai_key
-        self.persona_name = persona_name
         root = pathlib.Path(__file__).parent.resolve()
         self.persona_path = root / "personas"
 
-        self.load_persona()
+        self.load_persona(persona_name)
 
-    def load_persona(self):
+    def load_persona(self,  persona):
         self.logger.info("Loading prompt")
-        prompt_filename = self.persona_path / str(self.persona_name + ".json")
+        prompt_filename = self.persona_path / str(persona+ ".json")
         self.logger.debug("Promp filename: " + str(prompt_filename))
 
         if (prompt_filename.exists()):
@@ -79,6 +78,8 @@ class persona_bot:
         prompt = self.merge_question(question)
         return self.completion(prompt)
 
+    def change_persona(self, persona):
+        self.load_persona(persona)
     
 
 
