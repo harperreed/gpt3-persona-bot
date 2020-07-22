@@ -1,1 +1,34 @@
-{"name": "OpenAI Q&A ", "inspired_by": "", "sources": ["http://beta.openai.com"], "tune": {"temperature": 0.9, "top_p": 0}, "qa_pairs": [{"q": "What is human life expectancy in the United States?", "a": "Human life expectancy in the United States is 78 years."}, {"q": "Who was president of the United States in 1955?", "a": "Dwight D. Eisenhower was president of the United States in 1955."}, {"q": "What party did he belong to?", "a": "He belonged to the Republican Party."}, {"q": "Who was president of the United States before George W. Bush?", "a": "Bill Clinton was president of the United States before George W. Bush."}, {"q": "Who won the World Series in 1995?", "a": "The Atlanta Braves won the World Series in 1995.\n"}]}
+{
+    "designed_by": "",
+    "inspired_by": "",
+    "name": "OpenAI Q&A ",
+    "qa_pairs": [
+        {
+            "a": "Human life expectancy in the United States is 78 years.",
+            "q": "What is human life expectancy in the United States?"
+        },
+        {
+            "a": "Dwight D. Eisenhower was president of the United States in 1955.",
+            "q": "Who was president of the United States in 1955?"
+        },
+        {
+            "a": "He belonged to the Republican Party.",
+            "q": "What party did he belong to?"
+        },
+        {
+            "a": "Bill Clinton was president of the United States before George W. Bush.",
+            "q": "Who was president of the United States before George W. Bush?"
+        },
+        {
+            "a": "The Atlanta Braves won the World Series in 1995.\n",
+            "q": "Who won the World Series in 1995?"
+        }
+    ],
+    "sources": [
+        "http://beta.openai.com"
+    ],
+    "tune": {
+        "temperature": 0.9,
+        "top_p": 0
+    }
+}
