@@ -21,7 +21,7 @@ def main():
 
     interview_file_name = pathlib.Path(str(interview_text_filename).replace(".txt",".json"))
 
-    if interview_text_filename.exists ():
+    if interview_file_name.exists ():
         raise Exception('Destination Interview file already exists: ' + str(interview_file_name)) 
 
     with open(interview_text_filename) as f:
@@ -52,7 +52,7 @@ def main():
 
 
     with open(interview_file_name, "w" ) as f:
-        f.write(json.dumps(persona))
+        f.write(json.dumps(persona, sort_keys=True,  indent=4))
 
 
 
