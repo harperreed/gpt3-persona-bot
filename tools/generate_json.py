@@ -9,7 +9,7 @@ def main():
 
     parser = argparse.ArgumentParser(description=None)
 
-    parser.add_argument("-f", "--interview_file", default="example_interview.txt")
+    parser.add_argument("-f", "--interview_file",  required=True)
 
     args = parser.parse_args()
 
