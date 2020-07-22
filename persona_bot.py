@@ -21,6 +21,8 @@ class persona_bot:
         if openai_key:
             self.openai_key = openai_key
         root = pathlib.Path(__file__).parent.resolve()
+
+        self.logger.info("Setting persona to "+ persona_name)
         self.persona_path = root / "personas"
 
         self.load_persona(persona_name)
@@ -87,7 +89,12 @@ class persona_bot:
 
 if __name__ == "__main__":
     persona = "space"
-    bot = persona_bot(persona_name=persona, log_level=logging.INFO)
-    response = bot.ask("Are my feelings real?")
-    print(response)
+    bot = persona_bot(persona_name=persona, log_level=logging.DEBUG)
     print(bot.persona)
+    response = bot.ask("Are their laws for the moon??")
+    print(response)
+    bot.change_persona("guru")
+    print(bot.persona)
+    response = bot.ask("Why are humans like this?")
+    print(response)
+    
