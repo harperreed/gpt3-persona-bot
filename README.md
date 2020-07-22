@@ -69,7 +69,7 @@ or if you want to specify a persona use
 
 Works super well with `ngrok` or the like.  
 
-**This is not meant to be a public facing product. If you want to make it public, please be responsible. Also remember to talk to openAI first. **
+**This is not meant to be a public facing product. If you want to make it public, please be responsible. Also remember to talk to openAI first.**
 
 # yay
 
