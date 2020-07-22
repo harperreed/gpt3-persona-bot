@@ -16,9 +16,9 @@ class persona_bot:
     
     
 
-    def __init__(self, openai_key=None, persona_name="guru", log_level=logging.INFO):
+    def __init__(self, openai_key=None, persona_name="guru", log_level=logging.WARN):
         self.openai = openai
-        logging.basicConfig(level=logging.DEBUG)
+        logging.basicConfig(level=log_level)
         self.logger = logging.getLogger(__name__)
         if openai_key:
             self.openai_key = openai_key
@@ -76,34 +76,9 @@ class persona_bot:
     def ask(self, question):
         self.logger.debug("Question: " + question)
         prompt = self.merge_question(question)
-        print(prompt)
         return self.completion(prompt)
 
-    def chat(self):
-        # Largely from: https://github.com/jezhiggins/eliza.py
-        print()
-        print("You are speaking to the persona named:", self.persona['name'] )
-        print("This persona is inspired by", self.persona['inspired_by'] )
-        print("This persona is designed by", self.persona['designed_by'] )
-        print()
-        print("type `quit` to quit")
-        print('='*72)
-        print('Please ask me a question')
-        print()
-
-        s = ''
-        while s != 'quit':
-            try:
-                s = input('Q: ')
-            except EOFError:
-                s = 'quit'
-                print(s)
-            if (s=='quit' or s==''):
-                break
-            response = self.ask(s)
-            print()
-            print("A:", response)
-            print()
+    
 
 
 
