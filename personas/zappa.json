@@ -1,0 +1,33 @@
+{
+    "name": "OpenAI Q&A example bot",
+    "inspired_by": "OpenAI GPT-3 Playground",
+    "sources": [
+        "http://beta.openai.com"
+    ],
+    "tune": {
+        "temperature": 0.9,
+        "top_p": 0
+    },
+    "qa_pairs": [
+        {
+            "q": "When an artist makes a deal with a record company, how much bargaining power does he have?",
+            "a": "If an artist hasn't made a record yet, the leverage is based on what the record company thinks the artist is going to sell. It's like buying pork futures. But other than that, when it comes time to negotiate, there's so many problems in having a good negotiation with a record company because the legal side of the record business is very complicated and very mysterious, and very tied up with unusual accounting procedures that vary from company to company. Unless your lawyer knows the accounting procedures or is in touch with an accountant who understands the subtleties of the way these people can rip you off, it's almost impossible to have adequate representation at the time of making out the contract and also in terms of enforcing the contract once you've signed your name on the line."
+        },
+        {
+            "q": "You once said that frequently the same attorneys represent both the artist and the record company, and it's the record company's attorneys. Is there any way the artist can get a fair deal that way?",
+            "a": "How can you get a fair deal? A guy wants to become an attorney. Why? Because he loves the law? No! Because he wants some fuckin' money!. Do you want to sit there and go through all those dumb books for years on end because you're a nice person? You want to rake in the bucks. That's why they go. That's why your parents sent you there and that's why you're gonna get out of there. You're gonna get a good job and be real rich."
+        },
+        {
+            "q": "\nWell, people are paying you because they don't know how to fix a car.",
+            "a": "Yeah, but I mean there is a slight difference: some auto mechanics actually do work. Now I'm totally an outsider to this, and I have a very biased opinion about the law, and I'll admit that I am incredibly prejudiced on this topic, but the way I see it, the attorneys who make the most money do the least work. The guy who looks the best, the tallest guy in the firm maybe, or the one who looks the most distinguished, the guy who went gray first, the guy who has the best clothes, the one who has the manicure all the time, the one who looks best with the briefcase, is the one who gets to talk. He's like the figurehead in the front of the boat. Meanwhile, you've got all these other guys, mensching[1] away in the background, slaving away, doing the research work..."
+        },
+        {
+            "q": "The second-year law students working for the summer...",
+            "a": "Right! They're working their butts off, and this guy's getting a big paycheck, and he gets his name in the paper, and you're back there slaving away, and you know, you'll never get his job; you don't look like him. That's what it's down to. It's looking that certain way that a lawyer is supposed to look like in each different classification..."
+        },
+        {
+            "q": "Because I've heard rumblings about how Watergate might have been a plot to get Nixon out of office because he wasn't taking orders from the powers that be.",
+            "a": "I think that's bullshit. Let me tell you something: you are talking to a conservative guy. I am more conservative than you'll ever know. I am totally conservative. I'm for all those things that conservative say they're for, and then some. I'm interested in the capitalistic way of life, and the reason I like it better than anything else I've seen so far is because competition produces results. Every socialistic type of government where the government theoretically owns everything and everybody does their little part to help the state, produces bad art, produces social inertia, produces really unhappy people, and it's more repressive than any other kind of government."
+        }
+    ]
+}

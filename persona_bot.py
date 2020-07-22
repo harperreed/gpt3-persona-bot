@@ -1,5 +1,7 @@
 import openai
 import pathlib
+import logging
+
 
 class persona_bot:
 
@@ -14,8 +16,10 @@ class persona_bot:
     
     
 
-    def __init__(self, openai_key=None, persona="guru"):
+    def __init__(self, openai_key=None, persona="guru", log_level=logging.INFO):
         self.openai = openai
+        logging.basicConfig(level=logging.DEBUG)
+        self.logger = logging.getLogger(__name__)
         if openai_key:
             self.openai_key = openai_key
         self.persona = persona
@@ -24,6 +28,7 @@ class persona_bot:
         self.load_prompt()
 
     def load_prompt(self):
+        self.logger.debug("Loading prompt")
         prompt_filename = self.persona_path / str(self.persona + ".md")
 
         if (prompt_filename.exists()):
@@ -48,10 +53,12 @@ class persona_bot:
     
     def clean_result(self, result):
         str_result = result['choices'][0]['text'].replace(self.start_sequence,"")
+        self.logger.debug("Answer: " + str_result)
         return str_result
         
 
     def ask(self, question):
+        self.logger.debug("Question: " + question)
         prompt = self.merge_question(question)
         return self.completion(prompt)
 
