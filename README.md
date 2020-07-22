@@ -69,7 +69,7 @@ or if you want to specify a persona use
 
 Works super well with `ngrok` or the like.  
 
-**This is not meant to be a public facing product. If you want to make it public, please be responsible. Also remember to talk to openAI first.**
+**This is not meant to be a public facing product. If you want to make it public, please be responsible. Also remember to talk to openAI before you deploy anything into "production".**
 
 # yay
 
@@ -83,3 +83,11 @@ Works super well with `ngrok` or the like.
   * More politicians?
   * Plato? lol
   
+  
+---
+
+# thanks 
+
+Thanks to [@gdb](https://github.com/gdb) and team for the awesome API. It is really amazing and has been loads of fun. 
+
+Can't wait to see how it turns out
