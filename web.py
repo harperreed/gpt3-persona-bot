@@ -1,5 +1,6 @@
 from flask import Flask, request, render_template
 import logging
+import argparse
 from persona_bot import persona_bot
 
 logging.basicConfig(level=logging.INFO)
@@ -8,7 +9,13 @@ logger = logging.getLogger(__name__)
 app = Flask(__name__)
 logging.info("Starting up bot")
 
-persona = "space"
+
+parser = argparse.ArgumentParser(description=None)
+
+parser.add_argument("-p", "--persona", default="guru")
+args = parser.parse_args()
+persona = args.persona
+
 bot = persona_bot(persona_name=persona, log_level=logging.DEBUG)
 
 
@@ -30,4 +37,4 @@ def chat():
 
 
 if __name__ == '__main__':
-        app.run(debug=True,host='0.0.0.0')
+    app.run(debug=True,host='0.0.0.0')

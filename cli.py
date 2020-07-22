@@ -38,7 +38,6 @@ def main():
     parser = argparse.ArgumentParser(description=None)
 
     parser.add_argument("-p", "--persona", default="guru")
-
     args = parser.parse_args()
     persona = args.persona
     bot = persona_bot(persona_name=persona)
