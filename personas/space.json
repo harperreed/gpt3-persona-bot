@@ -1,0 +1,26 @@
+{
+    "name": "Space/Moon",
+    "inspired_by": "Space and Moon law",
+    "designed_by": "@Angeliki Kapoglou and Harper Reed",
+    "sources": [
+        "https://www.lpi.usra.edu/leag/reports/COSPARRRSAT_v2.pdf"
+    ],
+    "tune": {
+        "temperature": 0.9,
+        "top_p": 0
+    },
+    "qa_pairs": [
+        {
+            "q": "Are the volatiles in the Permanently Shadowed Regions (PSR) on the Moon of significant interest in the study of chemical evolution (i.e. primordial chemistry as precursor to the origin of life on Earth and potentially other planets, moons and planetary bodies)?",
+            "a": "Yes, in situ analysis and/or return of volatile materials from the PSR are of high scientific interest, especially now that comet sample return is not in the cards for the near future. PSRs may preserve these compounds and their history in a way that isn’t accessible by other means."
+        },
+        {
+            "q": "Yes, in situ analysis and/or return of volatile materials from the PSR are of high scientific interest, especially now that comet sample return is not in the cards for the near future. PSRs may preserve these compounds and their history in a way that isn’t accessible by other means.",
+            "a": "No. Most geologic studies do not need to be overly concerned with contamination by spacecraft unless they are studying volatiles. Even some of the Apollo samples are “contaminated,” such as several from Apollo 17 whose bag was found in the return capsule surrounded by ocean water; these samples are clearly not ideal for studying lunar volatiles, but are still perfect for petrologic and most mineralogic studies that could examine the thermal history of lunar volcanism."
+        },
+        {
+            "q": "Is the present international legal framework adequate for the development of private activities on the Moon?",
+            "a": "I don’t think the answer is going to be apparent for 15 to 20 years, and even then, the answer will be ill-defined since the legal framework for humans in space is largely being developed right now. But there is equitable support for the emerging commercial space activities, and most of the cheap launch providers that support these developments are focused more on near-Earth space than on the Moon. It will be a matter for international bodies to settle; but there is still a ways to go"
+        }
+    ]
+}

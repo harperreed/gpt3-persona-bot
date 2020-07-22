@@ -3,40 +3,73 @@ a simple bot that allows you to chat with various personas
 
 You will need a key. 
 
-## how to run
+## how to run the cli
 
     harper@ {~/openai/bot}$ pip3 install -r requirements.txt
     ...
     ...
     harper@ {~/openai/bot}$ export OPENAI_API_KEY=sk-KEYKEYKEYKEYKEYKEYKEYKEY
-    harper@ {~/openai/bot}$ python3 persona_bot.py
-    You are speaking to the persona named: space
+
+    harper@ {~/openai/bot}$ python3 cli.py        07/22/20  5:45PM
+    _   _                                        ____
+    | \ | | _____      __      __ _  __ _  ___   / ___|_   _ _ __ _   _
+    |  \| |/ _ \ \ /\ / /____ / _` |/ _` |/ _ \ | |  _| | | | '__| | | |
+    | |\  |  __/\ V  V /_____| (_| | (_| |  __/ | |_| | |_| | |  | |_| |
+    |_| \_|\___| \_/\_/       \__,_|\__, |\___|  \____|\__,_|_|   \__,_|
+                                    |___/
+
+    You are chatting with the persona named: New-age Guru
+
+    This persona is inspired by Conversations with Chris Holmes
+    This persona is designed by Chris Holmes and Harper Reed
 
     type `quit` to quit
     ========================================================================
+
     Please ask me a question
 
-    Q: Do you think we will settle on mars?
-    A: I think we will settle on the Moon, but I’m not sure we’ll be able to settle on
-    Mars. We’ll certainly send people to Mars, and we’ll probably find out a lot about
-    Mars that will be of interest to us, but the challenges are so great that I don’t 
-    think we’ll be able to stay. I’m not sure that we will be able to settle the Moon, 
-    either
+    Q: Why are humans so full of pain?
+    A: Because it is our most powerful energy
 
-Ify ou want to change the persona you will have to edit `persona_bot.py`
+you can change which persona it is using by passing the `-p` argument
+
+    $ python3 cli.py -p space
+    ____                          ____  __
+    / ___| _ __   __ _  ___ ___   / /  \/  | ___   ___  _ __
+    \___ \| '_ \ / _` |/ __/ _ \ / /| |\/| |/ _ \ / _ \| '_ \
+    ___) | |_) | (_| | (_|  __// / | |  | | (_) | (_) | | | |
+    |____/| .__/ \__,_|\___\___/_/  |_|  |_|\___/ \___/|_| |_|
+          |_|
+
+    You are chatting with the persona named: Space/Moon
+
+    This persona is inspired by Space and Moon law
+    This persona is designed by @Angeliki Kapoglou and Harper Reed
+
+    type `quit` to quit
+    ========================================================================
+
+    Please ask me a question
+
+    Q: what jurisdiction is the  moon in?
+    A: According to the 1967 Outer Space Treaty, the Moon and other celestial bodies are “not subject to national appropriation by claim of sovereignty, by means of use or occupation, or by any other means.” No entity (national or otherwise) can claim ownership of the Moon.
+
+## how to run the web interface
+
+Same as the cli: 
+
+`python3 web.py`
+
+or if you want to specify a persona use
+
+`python3 web.py -p space`
 
 # yay
 
 ## Lot's of TODOs here. 
 
 * Better handling when there isn't a good response.
-* allow for changing personas without editing the code
 * Better handling of repeating responses
-* Break the prompts into JSON Q/A pairs and then merge in prompt building
-  * Allows for some meta data and source data in persona generation
-  * Can have "names" 
-  * can put model tweaks directly in personas
-* Maybe some easier hooks into various chat apps
 * More personas
   * Doctor?
   * Dungeon master
