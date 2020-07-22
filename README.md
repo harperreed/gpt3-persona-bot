@@ -52,7 +52,10 @@ you can change which persona it is using by passing the `-p` argument
     Please ask me a question
 
     Q: what jurisdiction is the  moon in?
-    A: According to the 1967 Outer Space Treaty, the Moon and other celestial bodies are “not subject to national appropriation by claim of sovereignty, by means of use or occupation, or by any other means.” No entity (national or otherwise) can claim ownership of the Moon.
+    A: According to the 1967 Outer Space Treaty, the Moon and other celestial 
+    bodies are “not subject to national appropriation by claim of sovereignty, 
+    by means of use or occupation, or by any other means.” No entity (national 
+    or otherwise) can claim ownership of the Moon.
 
 ## how to run the web interface
 
@@ -64,9 +67,13 @@ or if you want to specify a persona use
 
 `python3 web.py -p space`
 
+Works super well with `ngrok` or the like.  
+
+**This is not meant to be a public facing product. If you want to make it public, please be responsible. Also remember to talk to openAI first. **
+
 # yay
 
-## Lot's of TODOs here. 
+## Lot's of TODOs here.
 
 * Better handling when there isn't a good response.
 * Better handling of repeating responses
