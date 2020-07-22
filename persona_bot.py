@@ -13,8 +13,6 @@ class persona_bot:
     max_tokens = 100
     top_p = 1
     persona_path = "./personas/"
-    
-    
 
     def __init__(self, openai_key=None, persona_name="guru", log_level=logging.WARN):
         self.openai = openai
@@ -39,8 +37,11 @@ class persona_bot:
                 persona = json.loads(prompt_text)
                 
                 self.prompt = self.build_prompt(persona['qa_pairs'])
+                
                 del  persona['qa_pairs']
                 self.persona = persona
+                self.temperature = self.persona['tune']['temperature']
+                self.top_p = self.persona['tune']['top_p']
         else:
             raise Exception('Persona not available')
 
@@ -86,7 +87,6 @@ class persona_bot:
 if __name__ == "__main__":
     persona = "space"
     bot = persona_bot(persona_name=persona, log_level=logging.INFO)
-    print 
     response = bot.ask("Are my feelings real?")
     print(response)
     print(bot.persona)
