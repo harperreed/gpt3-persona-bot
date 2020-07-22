@@ -1,7 +1,7 @@
 import openai
 import pathlib
 
-class openai_bot:
+class persona_bot:
 
     engine = "davinci"
     stop_sequence = "\n\n"
@@ -75,16 +75,8 @@ class openai_bot:
             if (s=='quit' or s==''):
                 break
             response = self.ask(s)
+            print()
             print("A:", response)
             print()
 
 
-
-if __name__ == "__main__":
-    persona = "space"
-
-    bot = openai_bot(persona=persona)
-    bot.chat()
-    
-    #response = bot.ask("Where are the bananas?")
-    #print(response)
