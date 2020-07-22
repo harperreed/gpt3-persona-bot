@@ -1,0 +1,9 @@
+version: '2'
+services:
+  persona-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: persona-bot
+    ports:
+      - "5000:5000"
