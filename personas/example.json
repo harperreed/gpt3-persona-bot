@@ -1,6 +1,7 @@
 {
     "name": "OpenAI Q&A example bot",
     "inspired_by": "OpenAI GPT-3 Playground",
+    "designed_by": "OpenAI",
     "sources":["http://beta.openai.com"],
     "tune":{
         "temperature": 0.9,

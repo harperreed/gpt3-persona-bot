@@ -2,7 +2,7 @@
     "name": "Bowie Bot",
     "inspired_by": "David Bowie",
     "sources": [
-        "http://beta.openai.com"
+        "http://www.angelfire.com/la2/withinyourheart/60minutes.html"
     ],
     "tune": {
         "temperature": 0.9,

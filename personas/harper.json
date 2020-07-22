@@ -1,8 +1,9 @@
 {
-    "name": "OpenAI Q&A example bot",
-    "inspired_by": "OpenAI GPT-3 Playground",
+    "name": "Harper",
+    "inspired_by": "interviews with Harper Reed",
+    "designed_by": "Harper Reed",
     "sources": [
-        "http://beta.openai.com"
+        "http://adrinkwith.com/harper-reed/"
     ],
     "tune": {
         "temperature": 0.9,

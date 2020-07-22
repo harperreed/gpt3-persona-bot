@@ -9,7 +9,8 @@ app = Flask(__name__)
 logging.info("Starting up bot")
 
 persona = "space"
-bot = persona_bot(persona=persona, log_level=logging.DEBUG)
+bot = persona_bot(persona_name=persona, log_level=logging.DEBUG)
+
 
 @app.route('/get')
 def bot_response(question=None):
@@ -21,9 +22,10 @@ def bot_response(question=None):
 
 @app.route('/')
 def chat():
+    
     # template largely based off of chatterbot python implementation
     # https://github.com/chamkank/flask-chatterbot
-    return render_template('index.html', name=persona)
+    return render_template('index.html', persona=bot.persona)
 
 
 

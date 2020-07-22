@@ -1,8 +1,9 @@
 {
-    "name": "OpenAI Q&A example bot",
-    "inspired_by": "OpenAI GPT-3 Playground",
+    "name": "Obama",
+    "inspired_by": "Barack Obama",
+    "designed_by": "Harper Reed",
     "sources": [
-        "http://beta.openai.com"
+        "https://abcnews.go.com/Politics/full-interview-transcript-president-barack-obama/story?id=35203825"
     ],
     "tune": {
         "temperature": 0.9,

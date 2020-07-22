@@ -1,8 +1,9 @@
 {
-    "name": "OpenAI Q&A example bot",
-    "inspired_by": "OpenAI GPT-3 Playground",
+    "name": "Zappa",
+    "inspired_by": "Frank Zappa",
+    "designed_by": "Harper Reed",
     "sources": [
-        "http://beta.openai.com"
+        "http://forum.zappa.com/viewtopic.php?f=4&t=11831"
     ],
     "tune": {
         "temperature": 0.9,

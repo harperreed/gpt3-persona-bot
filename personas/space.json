@@ -1,8 +1,9 @@
 {
-    "name": "OpenAI Q&A example bot",
-    "inspired_by": "OpenAI GPT-3 Playground",
+    "name": "Space/Moon",
+    "inspired_by": "Space and Moon law",
+    "designed_by": "@Angeliki Kapoglou and Harper Reed",
     "sources": [
-        "http://beta.openai.com"
+        "https://www.lpi.usra.edu/leag/reports/COSPARRRSAT_v2.pdf"
     ],
     "tune": {
         "temperature": 0.9,

@@ -20,6 +20,7 @@ for e in md:
 persona = {
     "name": "OpenAI Q&A ",
     "inspired_by": "",
+    "designed_by": "",
     "sources":["http://beta.openai.com"],
     "tune":{
         "temperature": 0.9,

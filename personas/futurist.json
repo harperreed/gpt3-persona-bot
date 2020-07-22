@@ -1,9 +1,8 @@
 {
-    "name": "OpenAI Q&A example bot",
-    "inspired_by": "OpenAI GPT-3 Playground",
-    "sources": [
-        "http://beta.openai.com"
-    ],
+    "name": "Futurist Ego bot",
+    "inspired_by": "An interview with Noah Raford",
+    "designed_by": "Noah Raford and Harper Reed",
+    "sources": [],
     "tune": {
         "temperature": 0.9,
         "top_p": 0
