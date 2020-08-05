@@ -4,7 +4,7 @@ import logging
 import json
 
 class persona_bot:
-    engine = "davinci-msft"
+    engine = "davinci"
     stop_sequence = "\n\n"
     restart_sequence = "\n\nQ: " #TBD
     start_sequence = "\nA: "
